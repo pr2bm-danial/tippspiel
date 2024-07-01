@@ -1,0 +1,143 @@
+/* Grundlegendes Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cecdcd;
+    margin: 0;
+    padding: 0;
+}
+
+.gameArea {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logoContainer {
+    width: 100%;
+    max-width: 600px; /* Gleiche maximale Breite wie .gameArea */
+    text-align: center;
+    margin: 0 auto;
+}
+.logoContainer img {
+    width: 250px; /* Bild auf 100% der Containerbreite skalieren */
+    height: 135px;
+}
+
+.match {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 23px;
+    margin-bottom: 20px;
+}
+
+.headPart, .mainPart {
+    display: flex; /* Verwendet Flexbox für die Anordnung nebeneinander */
+    justify-content: space-between; /* Verteilte Elemente mit gleichem Abstand */
+    padding:0;
+}
+
+.mainPart > div {
+    flex: 1; /* Jedes Kind-Element nimmt den gleichen Platz ein */
+    padding: 10px; /* Innenabstand */
+    margin: 0px; /* Abstand zwischen den Elementen */
+}
+
+.date{
+    margin-top: 8px;
+    padding-left: 15px;
+    flex:1
+}
+
+.teamName{
+    padding: 0px;
+}
+
+.statusBox {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.tippBox {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 22px;
+}
+
+.outputBox {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-right:30px;
+}
+
+.teamsBox{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.teamsBox > div {
+    flex:1;
+    text-align: center;
+    padding: 10px;
+}
+
+.teamLogo1 img{
+    width: 40px;
+    height: 25px;
+}
+
+.teamLogo2 img{
+    width: 40px;
+    height: 25px;
+}
+
+.timeBox, .resultBox, .teamsBox{
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tipp1, #tipp2{
+    border: solid 1px rgb(162, 162, 162);
+    border-radius: 5px;
+    width: 21px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#tipp1:focus{
+    outline: none;
+}
+#tipp2:focus{
+    outline: none;
+}
+
+.headLine, .mainLine {
+    display: flex;
+    justify-content: space-between; /* Verteilte Elemente mit gleichem Abstand */
+    padding: 10px 0;
+}
+
+.headLine > div, .mainLine > div {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+.groupName {
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.table{
+    background-color: #e2e2e2;
+    border-radius: 23px;
+    padding: 10px;
+}
