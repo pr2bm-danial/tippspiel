@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const token = localStorage.getItem('token');
 
     if (!token) {
-        window.location.href = 'login.html';
+        window.location.href = 'https://pr2bm-danial.github.io/login/login.html';
     } else {
         fetch('http://localhost:3000/protected', {
             method: 'GET',
